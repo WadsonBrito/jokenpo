@@ -12,7 +12,7 @@ int main (){
     printf("1. Pedra\n");
     printf("2. Papel\n");
     printf("3. Tesoura\n");
-    printf("Escolha: \n");
+    printf("Escolha: ");
     scanf("%d", &escolhajogador);
 
     escolhapc = rand() % 3 + 1;
